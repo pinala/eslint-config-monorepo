@@ -1,0 +1,23 @@
+{
+  "name": "@pinala/eslint-config-react",
+  "version": "1.1.0",
+  "keywords": [],
+  "license": "MIT",
+  "author": "pinala",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@pinala/eslint-config-ts": "workspace:*",
+    "eslint-plugin-react": "^7.29.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "react": "^18.1.0",
+    "typescript": "^4.6.4"
+  }
+}

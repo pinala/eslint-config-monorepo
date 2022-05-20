@@ -1,0 +1,26 @@
+{
+  "name": "@pinala/eslint-config-ts",
+  "version": "1.1.0",
+  "keywords": [],
+  "license": "MIT",
+  "author": "pinala <https://github.com/pinala/>",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@pinala/eslint-config-basic": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
