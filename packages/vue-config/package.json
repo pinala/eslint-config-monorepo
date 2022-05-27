@@ -1,23 +1,27 @@
 {
-  "name": "@pinala/eslint-config",
+  "name": "@pinala/eslint-config-vue",
   "version": "1.0.0",
   "packageManager": "pnpm@7.0.0",
-  "private": true,
   "license": "MIT",
   "author": "pinala <https://github.com/pinala/>",
-  "scripts": {
-    "lint": "eslint .",
-    "prepare": "pnpm -r run stub",
-    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
-  },
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pinala/eslint-config-monorepo"
   },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@pinala/eslint-config-ts": "workspace:*",
+    "eslint-plugin-vue": "^8.7.1"
+  },
   "devDependencies": {
-    "@pinala/eslint-config": "*",
-    "bumpp": "^7.1.1",
-    "eslint": "^8.14.0",
-    "typescript": "^4.6.4"
+    "eslint": "^8.14.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

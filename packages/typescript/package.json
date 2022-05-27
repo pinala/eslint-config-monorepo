@@ -8,6 +8,10 @@
   "files": [
     "index.js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinala/eslint-config-monorepo"
+  },
   "peerDependencies": {
     "eslint": ">=7.4.0",
     "typescript": ">=3.9"
